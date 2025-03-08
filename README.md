@@ -1,5 +1,9 @@
 ## Hi there 👋
 
+- Currently a Student at University of Debercen
+- Have some knowledge on Python, Java and JavaScript
+- Did some projects with CampK12
+
 <!--
 **Hisham-Zarour/Hisham-Zarour** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
