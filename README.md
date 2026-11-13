@@ -1,5 +1,5 @@
-<h1 align="center">Hey, I'm Hisham 👋</h1>
-<h3 align="center">CS student → Cybersecurity · aspiring <b>Detection Engineer</b></h3>
+<h1 align="center">Hey, I'm Hisham Zarour 👋</h1>
+<h3 align="center">CS student → Cybersecurity · Aspiring <b>Detection Engineer</b></h3>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1200&color=39D353&center=true&vCenter=true&width=520&lines=Writing+detections%2C+not+just+alerts;Sigma+%7C+KQL+%7C+SPL+%7C+YARA;Mapping+everything+to+MITRE+ATT%26CK;Detection-as-Code+enthusiast" alt="Typing SVG" />
@@ -13,36 +13,51 @@
 
 ---
 
-### 🛡️ `whoami`
+### `> cat whoami.yml`
 
 ```yaml
-title: Hisham Zarour
+title: Aspiring Detection Engineer Observed on GitHub
+id: 7f3c9a2e-1b4d-4e8a-9c6f-2d5e8b1a4c70
 status: experimental          # still learning, always tuning
-description: >
-  Computer Science student specializing in cybersecurity, focused on
-  detection engineering — turning attacker behavior into high-fidelity,
-  low-noise detections.
+description: |
+  Detects a Computer Science student specializing in cybersecurity,
+  focused on detection engineering: turning attacker behavior into
+  high-fidelity, low-noise detections.
+references:
+  - https://github.com/Hisham-Zarour
+  - https://www.linkedin.com/in/YOUR-LINKEDIN
+author: Hisham Zarour
+date: 2026-11-13
+tags:
+  - attack.discovery          # always exploring
+  - attack.reconnaissance     # always researching
 logsource:
-  category: student
-  product: human
+  product: github
+  service: profile
 detection:
-  interests:
-    - Detection engineering & detection-as-code
-    - Threat hunting and log analysis
-    - MITRE ATT&CK mapping and coverage
-    - Windows internals, Sysmon & endpoint telemetry
-  condition: interests and curiosity
+  selection_focus:
+    Interests|contains:
+      - 'Detection Engineering'
+      - 'Detection-as-Code'
+      - 'Threat Hunting'
+      - 'MITRE ATT&CK'
+  selection_telemetry:
+    DataSources|contains:
+      - 'Sysmon'
+      - 'Windows Event Logs'
+      - 'EDR'
+  filter_main_burnout:
+    Coffee: 0
+  condition: all of selection_* and not 1 of filter_*
 falsepositives:
   - Late-night CTFs mistaken for productivity
+  - Rebuilding the home lab for the 4th time
 level: high
-tags:
-  - attack.discovery
-  - attack.learning
 ```
 
 ---
 
-### 🔍 What I'm working on
+### `> cat currently_working_on.txt`
 
 - 🧪 Building a home lab to generate attack telemetry and write detections against it
 - 📜 Writing **Sigma** rules and converting them to **KQL / SPL**
@@ -51,7 +66,7 @@ tags:
 
 ---
 
-### 🧰 Toolbox
+### `> ls toolbox/`
 
 **Detection & SIEM**
 
@@ -74,29 +89,26 @@ tags:
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 <!-- Delete any badge for a tool you haven't actually used yet — recruiters do ask. -->
 
 ---
 
-### 📂 Featured projects
+### `> ls projects/`
 
 | Project | What it does | Stack |
 |---|---|---|
-<!-->| [**detection-rules**]| Sigma rules mapped to ATT&CK, with test data and KQL/SPL conversions | Sigma · KQL · SPL |
-| [**home-soc-lab**]| Write-up of my detection lab: AD + Sysmon + SIEM + Atomic Red Team | Elastic/Splunk · Sysmon |
-| [**PROJECT-NAME**]| One-line description of what it does | Python |
+| [**detection-rules**](https://github.com/Hisham-Zarour/detection-rules) | Sigma rules mapped to ATT&CK, with test data and KQL/SPL conversions | Sigma · KQL · SPL |
+<!--| [**home-soc-lab**](https://github.com/Hisham-Zarour/home-soc-lab) | Write-up of my detection lab: AD + Sysmon + SIEM + Atomic Red Team | Elastic/Splunk · Sysmon |
+| [**PROJECT-NAME**](https://github.com/Hisham-Zarour/PROJECT-NAME) | One-line description of what it does | Python |
 
 <!-- Replace these with your real repos, then pin them on your profile too. -->
 
 ---
 
-### 📊 GitHub stats
+### `> cat stats.txt`
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=Hisham-Zarour&show_icons=true&theme=github_dark&hide_border=true" />
