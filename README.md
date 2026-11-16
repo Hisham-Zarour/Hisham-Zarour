@@ -90,7 +90,7 @@ level: high
 
 | Project | What it does | Stack |
 |---|---|---|
-| [**home-soc-wazuh-lab**](https://github.com/Hisham-Zarour/home-soc-wazuh-lab) | Home SOC with a Wazuh SIEM, Sysmon and PowerShell Script Block Logging. Custom rules mapped to ATT&CK, validated with Atomic Red Team; emulation exposed **two detection gaps** (an in-memory `IEX` download cradle and a `certutil` LOLBin download) that I closed with new rules. | Wazuh · Sysmon · PowerShell · Atomic Red Team |
+| [**home-soc-wazuh-lab**](https://github.com/Hisham-Zarour/Home-SOC-Lab-Detection-Engineering-with-Wazuh) | Home SOC with a Wazuh SIEM, Sysmon and PowerShell Script Block Logging. Custom rules mapped to ATT&CK, validated with Atomic Red Team; emulation exposed **two detection gaps** (an in-memory `IEX` download cradle and a `certutil` LOLBin download) that I closed with new rules. | Wazuh · Sysmon · PowerShell · Atomic Red Team |
 | [**Command_logger**](https://github.com/Hisham-Zarour/Command_logger) | Builds a command logger as a test case, then a Python detector that hunts for it: YARA matching, SHA-256 hashing, entropy and timestamp-anomaly scoring, with quarantine and forensic reports. | Python · YARA |
 
 ---
